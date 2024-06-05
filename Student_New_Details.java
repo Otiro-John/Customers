@@ -45,7 +45,7 @@ public void setStudentName(String name){
         this.studentGpa = gpa_no;
        }
        else{
-        System.out.println("invalid gpa entered");
+        System.out.println("The entered GPA is invalid!!!");
        }
     }
 }
