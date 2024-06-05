@@ -14,6 +14,7 @@ public class Student_New_Details {
 }
 
 class StudentDetails {
+    //attributes of the student
     private String studentId;
       private String studentName;
       private double studentGpa;
@@ -45,7 +46,7 @@ public void setStudentName(String name){
         this.studentGpa = gpa_no;
        }
        else{
-        System.out.println("The entered GPA is invalid!!!");
+        System.out.println("The entered GPA is invalid!");
        }
     }
 }
