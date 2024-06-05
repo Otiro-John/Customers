@@ -1,12 +1,8 @@
 public class Customer {
     public static void main(String[] args) {
-    //instantiation is done here
-    //types of customers
-    //the new key word calls the constructor  method
-    //local customers
+   
     Customer localCustomer = new Customer(0001,"John","0004-Street",0712020066,"Kenya");
-    //this one explains the part of localCustomer
-    System.out.println("This is local a customer");
+   
     System.out.println(localCustomer.country);
       //methods for localCustomer
     localCustomer.myDeposit();
